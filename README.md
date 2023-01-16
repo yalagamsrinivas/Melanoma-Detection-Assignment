@@ -25,16 +25,17 @@ It accounts for 75% of skin cancer deaths. A solution that can evaluate images a
 * Vascular lesion
 
 
-## Conclusion from Melanoma-Detection-Assignment:
+## Conclusions from Melanoma-Detection-Assignment using CNNs(Tensorflow):
 
-- Class balacing with Augmentor helped to create 500 more samples for each class, and model is trainined on augmented and class balanced data.
-- Training and Validation accuracy increases with epochs,training and validation loss decreases with epochs.
+- Class balancing with Augmentor helped to create 500 more samples for each class, and model is trainined on augmented and class balanced data.
+- Training accuracy increases over the each epoch and training loss decreases with each epoch count.
+- Although there is fluctuation for Validation accuracy and loss, these values are improved over the each epoch count.
 - Train data accuracy is 91.39, validation data accuracy is 80.47 and test data accuracy is 34.44.
-- Current model achieves good performance on train and validation datasets and resonable performance in test data.
+- Current model achieves good performance on train and validation datasets and resonable performance on test data.
 - Augmentor class balancing strategy achieved better results than ImageDataGenerator augmentation strategy.
-- Tried with different combination of layers, ex: dropout, batch normalization etc.
-- As train dataset is very limited, it requires more diverse dataset to get good performanc on test dataset.
-- Overall model achived good fit on train and validation datasets.
+- Tried with different combination of layers, ex: dropout, batch normalization etc..
+- As train dataset is very limited, it requires more train diverse dataset to get good performance on test dataset.
+- Overall model achieved good fit on train and validation datasets.
 
 
 ## Technologies Used:
@@ -43,8 +44,6 @@ It accounts for 75% of skin cancer deaths. A solution that can evaluate images a
 - numpy - version 1.20.1
 - seaborn - version 0.11.1
 - matplotlib - version 3.3.4
-- scikit-learn - version 1.0.2
-- statsmodels - version 0.13.2
 - tensorflow 2.9.2
 - keras - 2.9.0
 - Augmentor - 0.2.9
